@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda JC</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .bg-tienda { background-color: #1a2340; }
+      .texto-dorado { color: #c8993a; }
+      #menstyle-ai-claude { font-family: Georgia, serif; }
+    </style>
+  </head>
+  <body id="menstyle-ai-claude">
+
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand texto-dorado" href="#inicio">JC</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#menuNav" aria-controls="menuNav"
+          aria-expanded="false" aria-label="Abrir menú">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+            <li class="nav-item"><a href="#info" class="nav-link">Nosotros</a></li>
+            <li class="nav-item"><a href="#ofertas" class="nav-link">Ofertas</a></li>
+            <li class="nav-item"><a href="#galeria" class="nav-link">Galería</a></li>
+            <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HOME -->
+    <header id="inicio" class="p-5 bg-tienda text-white">
+      <h1 class="texto-dorado">JC</h1>
+      <h2>Tienda de Ropa Masculina</h2>
+      <p>Encuentra las mejores prendas para hombre con estilo y calidad</p>
+      <a href="#ofertas" class="btn btn-outline-light mt-3">Ver Ofertas &rarr;</a>
+    </header>
+
+    <!-- NOSOTROS -->
+    <section id="info" class="container mt-5 mb-5">
+      <h3>¿Quiénes Somos?</h3>
+      <p>
+        JC es una tienda especializada en moda masculina. Ofrecemos ropa de calidad
+        para el hombre moderno: desde camisas formales hasta ropa casual para el fin de semana.
+        Trabajamos con marcas nacionales e internacionales que combinan estilo, durabilidad y precio justo.
+      </p>
+    </section>
+
+    <!-- OFERTAS -->
+    <main id="ofertas" class="container mb-5">
+      <h2 class="text-center mb-4">Ofertas de Temporada</h2>
+      <div class="row">
+
+        <div class="col-12 col-md-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <h3>👔 Camisa </h3>
+              <p>Algodón premium, corte slim fit. Perfecta para oficina o salir.</p>
+              <p><strong>$19.990</strong> <small class="text-muted"><s>$33.990</s></small></p>
+            </div>
+            <div class="card-footer text-center">
+              <a href="#" class="btn btn-outline-primary">Ver más...</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <h3>🧥 Chaqueta Cuero</h3>
+              <p>Cuero sintético de alta calidad. Estilo clásico para cualquier ocasión.</p>
+              <p><strong>$39.990</strong> <small class="text-muted"><s>$61.990</s></small></p>
+            </div>
+            <div class="card-footer text-center">
+              <a href="#" class="btn btn-outline-primary">Ver más...</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <h3>👕 Pack 3 Poleras</h3>
+              <p>Tres colores distintos, 100% algodón. Básicos que no pueden faltar.</p>
+              <p><strong>$14.990</strong> <small class="text-muted"><s>$29.990</s></small></p>
+            </div>
+            <div class="card-footer text-center">
+              <a href="#" class="btn btn-outline-primary">Ver más...</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <!-- GALERÍA -->
+    <section id="galeria" class="container my-5">
+      <h2 class="text-center mb-4">Galería</h2>
+      <div class="row g-3">
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="ratio ratio-1x1">
+            <img src="img/foto1.jpg"
+              alt="Poleron negro para hombre"
+              class="w-100 h-100 object-fit-cover rounded" />
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="ratio ratio-1x1">
+            <img src="img/foto2.png"
+              alt="Hombre con chaqueta casual cafe"
+              class="w-100 h-100 object-fit-cover rounded" />
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="ratio ratio-1x1">
+            <img src="img/foto3.webp"
+              alt="Camisa beige hombre"
+              class="w-100 h-100 object-fit-cover rounded" />
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="ratio ratio-1x1">
+            <img src="img/foto4.webp"
+              alt="Poleron gris hombre"
+              class="w-100 h-100 object-fit-cover rounded" />
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="ratio ratio-1x1">
+            <img src="img/foto5.webp"
+              alt="Camisa con cuadros azul"
+              class="w-100 h-100 object-fit-cover rounded" />
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="ratio ratio-1x1">
+            <img src="img/foto6.jpg"
+              alt="Pantalones cargo celestes"
+              class="w-100 h-100 object-fit-cover rounded" />
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FOOTER / CONTACTO -->
+    <footer id="contacto" class="bg-dark text-white text-center py-4 mt-5">
+      <div class="container">
+        <h4 class="texto-dorado">Contacto del Desarrollador</h4>
+        <p>📞 Teléfono: <a href="tel:+56912345678" class="text-white">+56 9 1234 5678</a></p>
+        <p>✉️ Email: <a href="/cdn-cgi/l/email-protection#7d180e090819141c1309183d14131c1e1c0d531e11" class="text-white"><span class="__cf_email__" data-cfemail="3f5a4c4b4a5b565e514b5a7f56515e5c5e4f115c53">[email&#160;protected]</span></a></p>
+        <p>📍 Dirección: Av. Vitacura 2909, Santiago, Chile</p>
+        <p>🐱 GitHub: <a href="https://github.com/tu-usuario/menstyle" class="text-white" target="_blank" rel="noopener">github.com/tu-usuario/menstyle</a></p>
+        <p>🌐 GitHub Pages: <a href="https://tu-usuario.github.io/menstyle" class="text-white" target="_blank" rel="noopener">tu-usuario.github.io/menstyle</a></p>
+        <hr />
+        <p class="mb-0 sm
